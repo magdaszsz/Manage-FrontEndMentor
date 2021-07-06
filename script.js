@@ -23,10 +23,9 @@ closeNav.addEventListener('click', () => {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  if(!email.value.trim('')){
+   if(email.value.trim() === '') {
     email.classList.add('error');
-    small.innerText = "Please provide a valid email"
-  }
+   }
 })
 
 
