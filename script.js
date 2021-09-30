@@ -23,9 +23,9 @@ closeNav.addEventListener('click', () => {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-   if(email.value.trim() === '') {
-    email.classList.add('error');
-   }
+  //  if(email.value.trim() === '') {
+  //   email.classList.add('error');
+  //  }
 })
 
 

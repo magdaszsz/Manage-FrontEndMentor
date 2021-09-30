@@ -17,6 +17,10 @@
   --v-light-gray: hsl(0, 0%, 98%);
 }
 
+input:invalid {
+  border: 2px solid var(--bright-red);
+}
+
 body {
   font-family: "Be Vietnam", sans-serif;
 }
@@ -246,7 +250,9 @@ a {
 
 /* reviews */
 
-
+.reviews {
+  position: relative;
+}
 .reviews__header {
   font-size: 1.6rem;
   color: var(--dark-blue);
@@ -380,12 +386,11 @@ footer {
   font-family: inherit;
 }
 
-.footer__input.error {
+/* .footer__input.error {
   border: 2px solid red;
-}
+} */
 
 .footer__input:focus {
-  border: 3px solid var(--d-grayish-blue);
   outline: none;
 }
 
